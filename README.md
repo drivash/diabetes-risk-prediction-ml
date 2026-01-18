@@ -52,7 +52,7 @@ The model identified BMI, Age, and High Blood Pressure as the top predictors, al
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 diabetes-risk-prediction-ml/

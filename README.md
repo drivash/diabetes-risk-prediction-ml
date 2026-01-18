@@ -4,7 +4,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## 🏥 About The Project
+## About The Project
 
 This project implements a Machine Learning pipeline to predict diabetes risk using the **CDC Health Indicators dataset**. 
 
@@ -12,14 +12,14 @@ In a medical screening context, the cost of missing a positive case (False Negat
 
 **Key Objective:** Maximize the detection of diabetic patients in a highly imbalanced dataset.
 
-### 🔍 Key Features
+### Key Features
 * **Imbalanced Data Handling:** extensive use of **SMOTE** and **Undersampling** techniques to balance classes.
 * **Metric Optimization:** Model tuning focused on the Precision-Recall trade-off rather than simple Accuracy.
 * **Interpretability:** Analysis of key risk factors (BMI, Age, Blood Pressure) to validate medical relevance.
 
 ---
 
-## 📊 Methodology & Results
+## Methodology & Results
 
 The pipeline includes Exploratory Data Analysis (EDA), feature engineering, and a comparison of multiple models. The final model (Logistic Regression with Hybrid Resampling) was optimized specifically for high sensitivity.
 
@@ -49,13 +49,6 @@ The model identified BMI, Age, and High Blood Pressure as the top predictors, al
 </p>
 
 > **Note:** See the full technical report in `docs/project_report.pdf` or the notebook `notebooks/diabetes_prediction_modeling.ipynb`.
----
-
-## 🛠️ Tech Stack
-
-* **Core:** Python, Pandas, NumPy
-* **ML & Stats:** Scikit-Learn, Imbalanced-learn
-* **Visualization:** Matplotlib, Seaborn
 
 ---
 
@@ -74,7 +67,7 @@ diabetes-risk-prediction-ml/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally, follow these steps:
 
@@ -96,7 +89,7 @@ To run this project locally, follow these steps:
 
 ---
 
-## 👤 Author
+## Author
 
 **Daniel Rivas Hidalgo** Data Science & AI Student @ UPM  
 

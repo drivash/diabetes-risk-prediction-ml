@@ -56,8 +56,8 @@ The model identified BMI, Age, and High Blood Pressure as the top predictors, al
 
 ```bash
 diabetes-risk-prediction-ml/
-├── docs/                   # Project documentation (PDF report)
-│   └── diabetes_prediction_modeling.ipynb
+├── docs/                   # Project documentation
+│   └── diabetes-risk-prediction-report.pdf
 ├── images/                 # Plots and confusion matrices
 ├── notebooks/              # Jupyter Notebooks with the analysis
 │   └── diabetes_prediction_modeling.ipynb
